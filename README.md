@@ -19,3 +19,39 @@ All generated plots are saved under `results/figures/`.
    ```bash
    git clone https://github.com/fatmanurdogannn/IE211_Probability_Teamwork3.git
    cd IE211_Probability_Teamwork3
+## Usage
+Run the scripts from the repository root folder:
+
+- **SLLN Simulation**
+  ```bash
+  python src/slln_simulation.py
+  python src/clt_simulation.py
+  python src/monte_carlo_pi.py
+  
+Project Structure
+
+src/
+Source code files for simulations
+
+slln_simulation.py — SLLN simulation code
+
+clt_simulation.py — CLT simulation code (histograms + Q-Q plots)
+
+monte_carlo_pi.py — Monte Carlo π estimation code
+
+utils.py — Helper functions (optional)
+
+results/figures/
+All generated plots (PNG files)
+
+reports/
+Technical reports (TW2_Report.pdf, TW3_Report.pdf)
+
+requirements.txt
+Python dependencies
+
+.gitignore
+Files to ignore
+
+README.md
+Project description and instructions
