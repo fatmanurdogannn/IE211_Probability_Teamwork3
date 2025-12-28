@@ -39,7 +39,6 @@ clt_simulation.py — CLT simulation code (histograms + Q-Q plots)
 
 monte_carlo_pi.py — Monte Carlo π estimation code
 
-utils.py — Helper functions (optional)
 
 results/figures/
 All generated plots (PNG files)
