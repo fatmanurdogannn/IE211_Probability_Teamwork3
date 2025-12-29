@@ -10,7 +10,7 @@ All generated plots are saved under `results/figures/`.
 
 ## Team Members
 - İbrahim Genç - 2211021036  
-- Ayşe Efsa Çelik - 221021001  
+- Ayşe Efsa Çelik - 2211021001  
 - Fatmanur Doğan - 2311021001  
 - Ecem Nur Yüksel - 2411013097  
 
