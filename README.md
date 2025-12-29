@@ -1,4 +1,4 @@
-# IE211 Probability Teamwork 3
+# IE211 Probability Teamwork 3 (group 3)
 
 ## Project Title and Description
 This repository contains simulations to demonstrate key probability concepts:
