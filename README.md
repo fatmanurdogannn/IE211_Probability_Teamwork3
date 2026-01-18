@@ -1,56 +1,16 @@
-# IE211 Probability Teamwork 3 (group 3)
+# IE 221 Probability - Simulation Project (Teamwork 5)
 
-## Project Title and Description
-This repository contains simulations to demonstrate key probability concepts:
-- **SLLN (Strong Law of Large Numbers):** Shows that the sample mean of U[0,1] converges to its expected value (0.5).
-- **CLT (Central Limit Theorem):** Shows that standardized sums approach a standard normal distribution as n increases.
-- **Monte Carlo Pi Estimation:** Estimates π using random points in the unit square.
+This repository contains the simulation codes and documentation for the **IE 221 Probability** course project. In this phase (Teamwork 5), we extended our analysis to investigate the **Strong Law of Large Numbers (SLLN)** and the **Central Limit Theorem (CLT)** across 5 different probability distributions, specifically focusing on anomalies where these theorems fail.
 
-All generated plots are saved under `results/figures/`.
+## 📂 Project Structure
 
-## Team Members
-- İbrahim Genç - 2211021036  
-- Ayşe Efsa Çelik - 2211021001  
-- Fatmanur Doğan - 2311021001  
-- Ecem Nur Yüksel - 2411013097  
-
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/fatmanurdogannn/IE211_Probability_Teamwork3.git
-   cd IE211_Probability_Teamwork3
-## Usage
-Run the scripts from the repository root folder:
-
-- **SLLN Simulation**
-  ```bash
-  python src/slln_simulation.py
-  python src/clt_simulation.py
-  python src/monte_carlo_pi.py
-  
-Project Structure
-
-src/
-Source code files for simulations
-
-slln_simulation.py — SLLN simulation code
-
-clt_simulation.py — CLT simulation code (histograms + Q-Q plots)
-
-monte_carlo_pi.py — Monte Carlo π estimation code
-
-
-results/figures/
-All generated plots (PNG files)
-
-reports/
-Technical reports (TW2_Report.pdf, TW3_Report.pdf)
-
-requirements.txt
-Python dependencies
-
-.gitignore
-Files to ignore
-
-README.md
-Project description and instructions
+```text
+.
+├── src/                    # Source codes
+│   ├── slln_simulation.py  # Updated SLLN simulation (5 Distributions)
+│   ├── clt_simulation.py   # Updated CLT simulation (Histograms & Q-Q Plots for 5 Dists)
+│   └── monte_carlo_pi.py   # Monte Carlo Pi estimation
+├── results/figures/        # Generated plots (PNG files for all distributions)
+├── reports/                # Technical reports (TW5_Report.pdf)
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation
