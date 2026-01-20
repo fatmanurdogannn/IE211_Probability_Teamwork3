@@ -1,4 +1,4 @@
-# Project Description (for Teamwork3)
+# Project Description (Teamwork3)
 This project aims to experimentally verify the Strong Law of Large Numbers (SLLN) and the Central Limit Theorem (CLT) through computer simulations. Additionally, it demonstrates a practical application of SLLN using the Monte Carlo Method for estimating the value of 
 π
 .
@@ -12,10 +12,19 @@ This project aims to experimentally verify the Strong Law of Large Numbers (SLLN
 # Project Structure
 The repository is organized according to the project requirements:
 
-src/: Contains all simulation source codes (slln_simulation.py, clt_simulation.py, monte_carlo_pi.py).
-results/figures/: Stores all generated plots in PNG format.
-reports/: Technical reports and documentation.
-requirements.txt: List of necessary Python libraries.
+├── src/                         # Contains all simulation source codes
+│   ├── slln_simulation.py       # SLLN simulation (5 distributions)
+│   ├── clt_simulation.py        # CLT simulation with histograms and Q–Q plots
+│   └── monte_carlo_pi.py        # Monte Carlo Pi estimation
+│
+├── results/
+│   └── figures/                 # Stores all generated plots in PNG format
+│
+├── reports/                     # Technical reports and documentation
+│
+├── requirements.txt             # List of necessary Python libraries
+└── README.md                    # Project documentation
+
 # Installation
 To set up the environment and install the required dependencies, use the following command:
 
